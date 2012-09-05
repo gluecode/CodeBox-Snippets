@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>09743029-A98F-456F-B94E-0894F49DA32A</UUID>
-        <nextObjectID>527</nextObjectID>
+        <nextObjectID>534</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -89,7 +89,7 @@ YWNrdXAvc3FsCgpEQVRFPWBkYXRlICsnJWQtJW0tJVknYAoKQVRUQUNIPWAkREFURS5zcWwuZ3pgCgpI
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z145"></relationship>
     </object>
     <object type="LIST" id="z108">
-        <attribute name="sort" type="int16">17</attribute>
+        <attribute name="sort" type="int16">18</attribute>
         <attribute name="name" type="string">HTML</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -101,7 +101,7 @@ YWNrdXAvc3FsCgpEQVRFPWBkYXRlICsnJWQtJW0tJVknYAoKQVRUQUNIPWAkREFURS5zcWwuZ3pgCgpI
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z155 z118 z140 z152"></relationship>
     </object>
     <object type="LIST" id="z110">
-        <attribute name="sort" type="int16">26</attribute>
+        <attribute name="sort" type="int16">27</attribute>
         <attribute name="name" type="string">Mootools</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -161,12 +161,12 @@ IGNvdWsxX21vZHggPiBiYWNrdXAvY3VycmVudC9jb3VrMV9tb2R4LnNxbA==
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z109 z134"></relationship>
     </object>
     <object type="LIST" id="z119">
-        <attribute name="sort" type="int16">21</attribute>
+        <attribute name="sort" type="int16">22</attribute>
         <attribute name="name" type="string">MYSQL</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z272 z403 z417 z410 z412 z420 z414 z408 z422 z416 z402 z406 z294 z273"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z414 z406 z410 z416 z412 z272 z417 z294 z273 z403 z408 z422 z402 z420"></relationship>
     </object>
     <object type="SEARCH" id="z120">
         <attribute name="sort" type="int16">0</attribute>
@@ -211,7 +211,7 @@ InNob3cgZGF0YWJhc2VzOyI=
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z129"></relationship>
     </object>
     <object type="LIST" id="z127">
-        <attribute name="sort" type="int16">14</attribute>
+        <attribute name="sort" type="int16">15</attribute>
         <attribute name="name" type="string">CSS</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -251,12 +251,12 @@ dG87CmJhY2tncm91bmQtY29sb3I6IHdoaXRlOwotd2Via2l0LXRyYW5zaXRpb246IGJhY2tncm91bmQt
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z103"></relationship>
     </object>
     <object type="LIST" id="z132">
-        <attribute name="sort" type="int16">9</attribute>
+        <attribute name="sort" type="int16">10</attribute>
         <attribute name="name" type="string">PHP</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z118 z328 z296 z178 z140"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z118 z296 z140 z328 z178"></relationship>
     </object>
     <object type="TAG" id="z134">
         <attribute name="name" type="string">mysql</attribute>
@@ -275,12 +275,12 @@ ZXlnZW4gLXQgcnNhIC1iIDIwNDggLWYgfi8uc3NoL2lkX3JzYSAtQyAiT3B0aW9uYWwgY29tbWVudD8i
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z116"></relationship>
     </object>
     <object type="LIST" id="z138">
-        <attribute name="sort" type="int16">12</attribute>
+        <attribute name="sort" type="int16">13</attribute>
         <attribute name="name" type="string">SHELL</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z280 z215 z261 z115 z264 z139 z393 z514 z191 z281 z253 z227 z259 z129 z301 z130 z290 z116 z187 z182 z184 z276 z104 z179 z268 z160 z159 z240 z193 z230 z188 z141 z200 z214 z521 z249 z251 z270 z392 z266 z198"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z115 z227 z130 z187 z259 z270 z160 z261 z214 z139 z264 z253 z301 z188 z240 z179 z141 z129 z104 z514 z200 z281 z191 z392 z266 z230 z184 z198 z159 z393 z182 z280 z290 z521 z249 z276 z251 z116 z215 z268 z193"></relationship>
     </object>
     <object type="SNIPPET" id="z139">
         <attribute name="name" type="string">MYSQL Dump</attribute>
@@ -348,7 +348,7 @@ UEFOQUNFQSBXRUIgRklMRVMgVE8gUkVNT1RFIENMT05FIERJUkVDVE9SWScgPj4gYmFja3VwL3JzeW5j
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z104"></relationship>
     </object>
     <object type="LIST" id="z148">
-        <attribute name="sort" type="int16">25</attribute>
+        <attribute name="sort" type="int16">26</attribute>
         <attribute name="name" type="string">JQuery</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -380,12 +380,12 @@ ICAgJnRoZW49YEhlbGxvLCBbWytuYW1lXV0hYAogICAgJmVsc2U9YEhlbGxvLCBhbm9ueW1vdXMhYApd
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z152"></relationship>
     </object>
     <object type="LIST" id="z154">
-        <attribute name="sort" type="int16">20</attribute>
+        <attribute name="sort" type="int16">21</attribute>
         <attribute name="name" type="string">MODX</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z304 z321 z308 z326 z320 z168 z314 z174 z195 z309 z152 z172 z311 z305 z197 z315 z176 z166 z169 z155 z163 z329 z323"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z323 z311 z314 z176 z163 z152 z155 z320 z168 z321 z305 z326 z309 z174 z172 z315 z304 z197 z169 z166 z308 z329 z195"></relationship>
     </object>
     <object type="SNIPPET" id="z155">
         <attribute name="name" type="string">MODX-\u3e00GETOBJECT</attribute>
@@ -756,12 +756,12 @@ IGlzIEludGVybmV0IEV4cGxvcmVyPGJyIC8+CjwhW2VuZGlmXS0tPgo8IS0tW2lmIElFIDVdPgpBY2Nv
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z205">
-        <attribute name="sort" type="int16">13</attribute>
+        <attribute name="sort" type="int16">14</attribute>
         <attribute name="name" type="string">APACHE</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z207 z204 z212 z210"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z204 z212 z207 z210"></relationship>
     </object>
     <object type="ASSET" id="z206">
         <attribute name="sort" type="int32">-1</attribute>
@@ -883,7 +883,7 @@ NzkyNw==
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z232">
-        <attribute name="sort" type="int16">24</attribute>
+        <attribute name="sort" type="int16">25</attribute>
         <attribute name="name" type="string">SVNADMIN</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -891,7 +891,7 @@ NzkyNw==
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z243 z235"></relationship>
     </object>
     <object type="LIST" id="z234">
-        <attribute name="sort" type="int16">27</attribute>
+        <attribute name="sort" type="int16">28</attribute>
         <attribute name="name" type="string">SVN</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -1362,7 +1362,7 @@ dC4gJyAnOwokdGV4dCA9IHN1YnN0cigkdGV4dCwwLCRjaGFycyk7CiR0ZXh0ID0gc3Vic3RyKCR0ZXh0
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z297">
-        <attribute name="sort" type="int16">10</attribute>
+        <attribute name="sort" type="int16">11</attribute>
         <attribute name="name" type="string">XPDO</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -1370,7 +1370,7 @@ dC4gJyAnOwokdGV4dCA9IHN1YnN0cigkdGV4dCwwLCRjaGFycyk7CiR0ZXh0ID0gc3Vic3RyKCR0ZXh0
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z300"></relationship>
     </object>
     <object type="LIST" id="z298">
-        <attribute name="sort" type="int16">11</attribute>
+        <attribute name="sort" type="int16">12</attribute>
         <attribute name="name" type="string">PDO</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -1649,7 +1649,7 @@ YnN0YXR1cycpCiAgICAgICAgLT53aGVyZSgic3RhdHVzIExJS0UgJyRzdGF0ZSciKQogICAgICAgIC0+
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z331"></relationship>
     </object>
     <object type="LIST" id="z333">
-        <attribute name="sort" type="int16">19</attribute>
+        <attribute name="sort" type="int16">20</attribute>
         <attribute name="name" type="string">Zend</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -1665,12 +1665,12 @@ YnN0YXR1cycpCiAgICAgICAgLT53aGVyZSgic3RhdHVzIExJS0UgJyRzdGF0ZSciKQogICAgICAgIC0+
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z335">
-        <attribute name="sort" type="int16">23</attribute>
+        <attribute name="sort" type="int16">24</attribute>
         <attribute name="name" type="string">GIT</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z377 z433 z344 z374 z338 z334 z373 z379 z341 z348 z346 z339"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z334 z377 z374 z344 z433 z348 z346 z341 z339 z379 z338 z373"></relationship>
     </object>
     <object type="ASSET" id="z336">
         <attribute name="sort" type="int32">-1</attribute>
@@ -1803,7 +1803,7 @@ TnVsbGEgdGVtcHVzIG9kaW8gYXQgbWV0dXMgaWFjdWxpcyBxdWlzIG1vbGxpcyBwdXJ1cyB2aXZlcnJh
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z353">
-        <attribute name="sort" type="int16">18</attribute>
+        <attribute name="sort" type="int16">19</attribute>
         <attribute name="name" type="string">Node</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -1811,7 +1811,7 @@ TnVsbGEgdGVtcHVzIG9kaW8gYXQgbWV0dXMgaWFjdWxpcyBxdWlzIG1vbGxpcyBwdXJ1cyB2aXZlcnJh
         <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
     <object type="LIST" id="z354">
-        <attribute name="sort" type="int16">16</attribute>
+        <attribute name="sort" type="int16">17</attribute>
         <attribute name="name" type="string">Ruby</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -1927,7 +1927,7 @@ b3A=
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z371"></relationship>
     </object>
     <object type="LIST" id="z370">
-        <attribute name="sort" type="int16">15</attribute>
+        <attribute name="sort" type="int16">16</attribute>
         <attribute name="name" type="string">OpenVZ</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2026,12 +2026,12 @@ aWxzIGcgcnNwZWM6aW5zdGFsbApndWFyZCBpbml0IHJzcGVjCnJhaWxzIGcgaW50ZWdyYXRpb25fdGVz
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z385"></relationship>
     </object>
     <object type="LIST" id="z384">
-        <attribute name="sort" type="int16">22</attribute>
+        <attribute name="sort" type="int16">23</attribute>
         <attribute name="name" type="string">Rails</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z385 z473 z426 z454 z451 z455 z387"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z426 z387 z385 z451 z455 z473 z454"></relationship>
     </object>
     <object type="SNIPPET" id="z385">
         <attribute name="name" type="string">Rails Quick Create Project</attribute>
@@ -2057,7 +2057,7 @@ aWxzIGcgcnNwZWM6aW5zdGFsbApndWFyZCBpbml0IHJzcGVjCnJhaWxzIGcgaW50ZWdyYXRpb25fdGVz
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z388">
-        <attribute name="sort" type="int16">8</attribute>
+        <attribute name="sort" type="int16">9</attribute>
         <attribute name="name" type="string">VIM</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2068,7 +2068,7 @@ aWxzIGcgcnNwZWM6aW5zdGFsbApndWFyZCBpbml0IHJzcGVjCnJhaWxzIGcgaW50ZWdyYXRpb25fdGVz
         <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbG1YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
 FgcIDxQcJicpMTU6O0BESk9QVVtgZWdVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXHZhbHVlRm9yS2V5OtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtUbmFtZdIqKzw9XxAcTlNLZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM+PzBfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtIqK0FCXk5TTXV0YWJsZUFycmF5o0FDMFdOU0FycmF50iorRUZfEBNOU0tleVBhdGhFeHByZXNzaW9upEdISTBfEBNOU0tleVBhdGhFeHByZXNzaW9uXxAUTlNGdW5jdGlvbkV4cHJlc3Npb25cTlNFeHByZXNzaW9u0x1LC0xNTl8QD05TQ29uc3RhbnRWYWx1ZRAAgA+AEFNnaXTSKitRUl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jU1QwXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvblxOU0V4cHJlc3Npb27UVlcLWFlMWiFeTlNPcGVyYXRvclR5cGVaTlNNb2RpZmllcldOU0ZsYWdzEGOAEtIqK1xdXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yo15fMF8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcl8QE05TUHJlZGljYXRlT3BlcmF0b3LSKithYl8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNjZDBfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGVbTlNQcmVkaWNhdGXSKitDZqJDMNIqK2hpXxATTlNDb21wb3VuZFByZWRpY2F0ZaNqazBfEBNOU0NvbXBvdW5kUHJlZGljYXRlW05TUHJlZGljYXRlXxAPTlNLZXllZEFyY2hpdmVy0W5vVHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBdAG8AiQCQAJIAlACWAJsApgCoAKoArAC1AMgA3ADyAPQA9gD4APoBBQEYAScBMQE9AT8BQQFDAUUBRwFUAVkBWwFgAWsBdAGHAYsBngGrAbQBuQG7Ab0BvwHGAdAB0gHUAdYB2wHgAf8CAwIiAi8CNAJDAkcCTwJUAmoCbwKFApwCqQKwAsICxALGAsgCzALRAu0C8QMNAxoDIwMyAz0DRQNHA0kDTgNmA2oDggOYA50DtQO5A9ED3QPiA+UD6gQABAQEGgQmBDgEOwRAAAAAAAAAAgEAAAAAAAAAcAAAAAAAAAAAAAAAAAAABEI=
 </attribute>
-        <attribute name="sort" type="int16">6</attribute>
+        <attribute name="sort" type="int16">7</attribute>
         <attribute name="name" type="string">GIT</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2078,7 +2078,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVtgZWdVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbG1YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
 FgcIDxQcJicpMTU6O0BESk9QVVtgZWdVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXHZhbHVlRm9yS2V5OtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtUbmFtZdIqKzw9XxAcTlNLZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM+PzBfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtIqK0FCXk5TTXV0YWJsZUFycmF5o0FDMFdOU0FycmF50iorRUZfEBNOU0tleVBhdGhFeHByZXNzaW9upEdISTBfEBNOU0tleVBhdGhFeHByZXNzaW9uXxAUTlNGdW5jdGlvbkV4cHJlc3Npb25cTlNFeHByZXNzaW9u0x1LC0xNTl8QD05TQ29uc3RhbnRWYWx1ZRAAgA+AEFNzdm7SKitRUl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jU1QwXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvblxOU0V4cHJlc3Npb27UVlcLWFlMWiFeTlNPcGVyYXRvclR5cGVaTlNNb2RpZmllcldOU0ZsYWdzEGOAEtIqK1xdXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yo15fMF8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcl8QE05TUHJlZGljYXRlT3BlcmF0b3LSKithYl8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNjZDBfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGVbTlNQcmVkaWNhdGXSKitDZqJDMNIqK2hpXxATTlNDb21wb3VuZFByZWRpY2F0ZaNqazBfEBNOU0NvbXBvdW5kUHJlZGljYXRlW05TUHJlZGljYXRlXxAPTlNLZXllZEFyY2hpdmVy0W5vVHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBdAG8AiQCQAJIAlACWAJsApgCoAKoArAC1AMgA3ADyAPQA9gD4APoBBQEYAScBMQE9AT8BQQFDAUUBRwFUAVkBWwFgAWsBdAGHAYsBngGrAbQBuQG7Ab0BvwHGAdAB0gHUAdYB2wHgAf8CAwIiAi8CNAJDAkcCTwJUAmoCbwKFApwCqQKwAsICxALGAsgCzALRAu0C8QMNAxoDIwMyAz0DRQNHA0kDTgNmA2oDggOYA50DtQO5A9ED3QPiA+UD6gQABAQEGgQmBDgEOwRAAAAAAAAAAgEAAAAAAAAAcAAAAAAAAAAAAAAAAAAABEI=
 </attribute>
-        <attribute name="sort" type="int16">7</attribute>
+        <attribute name="sort" type="int16">8</attribute>
         <attribute name="name" type="string">SVN</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2433,7 +2433,7 @@ YXBpCmRvYy9hcHAKKi5zd3AKKn4KLkRTX1N0b3Jl
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z433"></relationship>
     </object>
     <object type="LIST" id="z435">
-        <attribute name="sort" type="int16">5</attribute>
+        <attribute name="sort" type="int16">6</attribute>
         <attribute name="name" type="string">New Group</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2504,7 +2504,7 @@ dGVyYWwgYnJhY2UgZXNjYXBlZCBiZWNhdXNlIGl0IGlzIGEgc3BlY2lhbCBjaGFyYWN0ZXIgdXNlZCBm
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z444">
-        <attribute name="sort" type="int16">4</attribute>
+        <attribute name="sort" type="int16">5</attribute>
         <attribute name="name" type="string">Ruby</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2630,7 +2630,7 @@ c3Z8CgkgIEZpbGUub3BlbigiI3tSYWlscy5yb290fS9saWIvdWZvX2F3ZXNvbWUudHN2IikgZG8gfGZ8
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z460">
-        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="sort" type="int16">3</attribute>
         <attribute name="name" type="string">Rack</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2645,7 +2645,7 @@ c3Z8CgkgIEZpbGUub3BlbigiI3tSYWlscy5yb290fS9saWIvdWZvX2F3ZXNvbWUudHN2IikgZG8gfGZ8
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z459"></relationship>
     </object>
     <object type="LIST" id="z462">
-        <attribute name="sort" type="int16">3</attribute>
+        <attribute name="sort" type="int16">4</attribute>
         <attribute name="name" type="string">Redis</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -2680,7 +2680,7 @@ c3Z8CgkgIEZpbGUub3BlbigiI3tSYWlscy5yb290fS9saWIvdWZvX2F3ZXNvbWUudHN2IikgZG8gfGZ8
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z467 z498"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z498 z467"></relationship>
     </object>
     <object type="SNIPPET" id="z467">
         <attribute name="name" type="string">rake resque:work QUEUE='*'</attribute>
@@ -3157,5 +3157,51 @@ IC0tZ2xvYmFsIHVzZXIuZW1haWwgZGFuQHJlZHVuZGVybG9uZ3dhdmUuY29tOwpnaXQgY29uZmlnIC0t
 cmUvcHVibGljX2h0bWwvd3AtY29udGVudC90aGVtZXMvY29udHJhY3RvciA7IGdpdCByZXNldCAtLWhhcmQgOyBnaXQgY2hlY2tvdXQgbWFzdGVyIDsgZ2l0IHB1bGwgb3JpZ2luIG1hc3RlciI=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z526"></relationship>
+    </object>
+    <object type="SNIPPET" id="z528">
+        <attribute name="name" type="string">nginx enable site - nxensite</attribute>
+        <attribute name="modified" type="date">368540712.92562699317932128906</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z533"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z529"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z529">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">bnhlbnNpdGU=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z528"></relationship>
+    </object>
+    <object type="ASSET" id="z531">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">cHNxbCAtVSBwb3N0Z3JlcyAtZCB0ZW1wbGF0ZTE=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z532"></relationship>
+    </object>
+    <object type="SNIPPET" id="z532">
+        <attribute name="name" type="string">connect to psql terminal</attribute>
+        <attribute name="modified" type="date">368540693.60436898469924926758</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z534"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z531"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="LIST" id="z533">
+        <attribute name="sort" type="int16">29</attribute>
+        <attribute name="name" type="string">NGINX</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z528"></relationship>
+    </object>
+    <object type="LIST" id="z534">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">Postgresql</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z532"></relationship>
     </object>
 </database>
