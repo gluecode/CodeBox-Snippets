@@ -1,7 +1,6 @@
 # Overview
 
 CodeBox is awesome right?
-
 This repo contains useful snippets for the following:
 
 * Rails
@@ -33,6 +32,8 @@ This repo contains useful snippets for the following:
 
 ## Usage
 
-Just download or clone this repo to your local workstaion and open it using CodeBox.app.
-
-You can then drag and drop the snippets you need into your existing codebox.
+1. Download or clone this repo to your local workstation
+2. Open 'DevelopmentSnippets.cbxml' using CodeBox.app
+3. Drag and drop the snippets you need into your existing codebox
+4. Save your codebox
+5. Once you've imported the snippets you want, you can delete the repo or keep it for updates/pulls
