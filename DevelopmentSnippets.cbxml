@@ -190,7 +190,7 @@ bCjigJ0uLi9pbWcvdGhlX2ltYWdlLnBuZ+KAnSkgIWltcG9ydGFudDsgIGJhY2tncm91bmQtaW1hZ2U6
     <object type="ASSET" id="z123">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.sh</attribute>
-        <attribute name="content" type="binary">bWFpbCAtcyBUZXN0IGRqaGFyZGluZ0Bob3RtYWlsLmNvbSA8IC9kZXYvbnVsbA==
+        <attribute name="content" type="binary">bWFpbCAtcyBUZXN0IG5hbWVAZG9tYWluLmNvbSA8IC9kZXYvbnVsbA==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z115"></relationship>
     </object>
